@@ -1,0 +1,189 @@
+
+@import "./var";
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+/*
+  CONTENITORI:
+*/
+
+.container{
+
+  max-width: 1316px;
+
+  margin: 0 auto;
+
+  // border: 1px dashed black;
+
+}
+
+
+
+/*
+  UTILITY:
+*/
+
+// Bottoni:
+
+button{
+  padding: 10px 20px;
+
+  border: none;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+
+  background-color: $button-color;
+  color: white;
+
+  cursor: pointer;
+
+  color: #FFFFFF;
+  font-family: "Fira Sans";
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 0;
+
+}
+
+.button-without-background{
+
+  background-color: white;
+
+  color: $button-color;
+  border: 1px solid $button-color;
+
+  &:hover{
+
+    background-color: $button-color;
+    color: white;
+
+  }
+
+}
+
+.white-button{
+  background-color: transparent;
+  color: white;
+  border: 1px solid white;
+
+  &:hover{
+
+    background-color: white;
+    color: black;
+
+  }
+
+}
+
+
+// Decoration:
+
+.decoration{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  padding: 0px 20px;
+  
+  position: absolute;
+  z-index: 9999999;
+  top: 30px;
+  right: 415px;
+
+  .little-circle{
+    width: 8px;
+    height: 8px;
+
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+
+    background-color: $button-color;
+
+  }
+
+  .line{
+    width: 195px;
+    height: 1px;
+
+    background-color: $button-color;
+
+  }
+
+  .big-and-little-circle{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 20px;
+    height: 20px;
+
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+
+    border: 1px solid $button-color;
+
+    .little-circle{
+      width: 8px;
+      height: 8px;
+  
+      border-radius: 50%;
+      -webkit-border-radius: 50%;
+      -moz-border-radius: 50%;
+      -ms-border-radius: 50%;
+      -o-border-radius: 50%;
+  
+      background-color: $button-color;
+  
+    }
+
+  }
+
+}
+
+
+/*
+  Navigation Bar:
+*/
+
+// Link:
+a{
+  cursor: pointer;
+  color: #484A54;
+
+  text-decoration: none;
+
+
+  &:hover{
+    color: $button-color;
+  }
+
+}
+
+
+// List:
+li{
+  list-style: none;
+}
+
+
+
+
+
+
+
+

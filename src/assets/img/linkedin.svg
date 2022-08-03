@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="32px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 60.1 (101010) - https://sketch.com -->
+    <title>720B3A8A-4A36-4E9A-9983-E42956D4EE0F</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <polygon id="path-1" points="0 0.427287292 4.58160019 0.427287292 4.58160019 5.04619637 0 5.04619637"></polygon>
+        <polygon id="path-3" points="0.177119994 0.194007277 12.2185743 0.194007277 12.2185743 13.0909097 0.177119994 13.0909097"></polygon>
+    </defs>
+    <g id="Asset-Artboard-Page" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Icon/Social/Facebook-Copy-2-Icon/Social/Linkedin/Black">
+            <g id="Group-9" transform="translate(6.400000, 6.400000)">
+                <polygon id="Fill-1" fill="#484A54" points="0.37221818 19.2089897 4.24625459 19.2089897 4.24625459 6.69408035 0.37221818 6.69408035"></polygon>
+                <g id="Group-8" transform="translate(0.000000, 0.008989)">
+                    <g id="Group-4">
+                        <mask id="mask-2" fill="white">
+                            <use xlink:href="#path-1"></use>
+                        </mask>
+                        <g id="Clip-3"></g>
+                        <path d="M2.29069082,5.04619637 C3.55614532,5.04619637 4.58159983,4.01114182 4.58159983,2.73652365 C4.58159983,1.46146911 3.55614532,0.427287292 2.29069082,0.427287292 C1.02523632,0.427287292 -0.000218181824,1.46146911 -0.000218181824,2.73652365 C-0.000218181824,4.01114182 1.02523632,5.04619637 2.29069082,5.04619637" id="Fill-2" fill="#484A54" mask="url(#mask-2)"></path>
+                    </g>
+                    <g id="Group-7" transform="translate(6.545454, 6.109091)">
+                        <mask id="mask-4" fill="white">
+                            <use xlink:href="#path-3"></use>
+                        </mask>
+                        <g id="Clip-6"></g>
+                        <path d="M3.89319265,6.52127988 C3.89319265,4.76186174 4.70308354,3.7137163 6.25391988,3.7137163 C7.67821076,3.7137163 8.36286529,4.71997083 8.36286529,6.52127988 L8.36286529,13.0911707 L12.2185743,13.0911707 L12.2185743,5.16680718 C12.2185743,1.81466179 10.3186471,0.194007277 7.66511985,0.194007277 C5.0107199,0.194007277 3.89319265,2.26149815 3.89319265,2.26149815 L3.89319265,0.575825452 L0.177119994,0.575825452 L0.177119994,13.0911707 L3.89319265,13.0911707 L3.89319265,6.52127988 Z" id="Fill-5" fill="#484A54" mask="url(#mask-4)"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
