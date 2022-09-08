@@ -72,27 +72,6 @@ export default {
 
 <style lang="scss">
 
-@import './assets/style/global';
-@import './assets/style/var';
-
-@font-face {
-  font-family: "Fira Sans";
-  src: local("Fira Sans"),
-   url(./assets/font/Fira_Sans/FiraSans-Regular.ttf) format("truetype");
-}
-
-#app{
-  position: relative;
-
-  .back-to-top-component{
-    position: fixed;
-    margin-top: 50px;
-    z-index: 999999;
-    bottom: 30px;
-    right: 95px;
-  }
-
-}
-
+@import './assets/style/main';
 
 </style>

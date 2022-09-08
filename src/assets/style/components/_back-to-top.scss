@@ -1,0 +1,16 @@
+// -----------------------------------------------------------------------------
+// This file contains all styles related to the button component.
+// -----------------------------------------------------------------------------
+
+.arrow-container{
+  width: 35px;
+  height: 35px;
+  padding: 5px;
+  border-radius: 50%;
+  cursor: pointer;
+
+  background-color: $button-color;
+
+  color: white;
+
+}

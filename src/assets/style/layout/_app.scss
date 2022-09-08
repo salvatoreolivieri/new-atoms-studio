@@ -1,0 +1,16 @@
+// -----------------------------------------------------------------------------
+// This file contains all styles related to the app of the site/application.
+// -----------------------------------------------------------------------------
+
+#app{
+  position: relative;
+
+  .back-to-top-component{
+    position: fixed;
+    margin-top: 50px;
+    z-index: 100;
+    bottom: 30px;
+    right: 95px;
+  }
+
+}

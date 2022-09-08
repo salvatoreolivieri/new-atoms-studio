@@ -61,7 +61,6 @@ export default {
 
     position: absolute;
     top: 0;
-    z-index: 0;
 
     width: 100%;
     height: 100%;
@@ -72,7 +71,7 @@ export default {
 
   span,
   h3{
-    z-index: 99999;
+    z-index: 1;
   }
 
 
@@ -82,7 +81,6 @@ export default {
 
     color: #FFFFFF;
 
-    font-family: "Fira Sans";
     font-size: 12px;
     letter-spacing: 0;
     line-height: 18px;
@@ -97,7 +95,6 @@ export default {
     .tag{
       color: #293E59;
 
-      font-family: "Fira Sans";
       font-size: 12px;
       letter-spacing: 0;
       line-height: 18px;
@@ -139,7 +136,6 @@ export default {
 
     color: #FFFFFF;
 
-    font-family: "Fira Sans";
     font-size: 14px;
     font-weight: 500;
     letter-spacing: 0;

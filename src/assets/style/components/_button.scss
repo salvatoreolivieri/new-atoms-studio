@@ -1,0 +1,55 @@
+// -----------------------------------------------------------------------------
+// This file contains all styles related to the button component.
+// -----------------------------------------------------------------------------
+
+button{
+  padding: 10px 20px;
+
+  border: none;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+
+  background-color: $button-color;
+  color: white;
+
+  cursor: pointer;
+
+  color: #FFFFFF;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 0;
+
+}
+
+.button-without-background{
+
+  background-color: white;
+
+  color: $button-color;
+  border: 1px solid $button-color;
+
+  &:hover{
+
+    background-color: $button-color;
+    color: white;
+
+  }
+
+}
+
+.white-button{
+  background-color: transparent;
+  color: white;
+  border: 1px solid white;
+
+  &:hover{
+
+    background-color: white;
+    color: black;
+
+  }
+
+}

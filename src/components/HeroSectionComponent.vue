@@ -12,7 +12,7 @@
     <div class="unique-selling-position-container">
       <h1>Performance without compromises</h1>
 
-      <p>How we helped Blumarine to conquer new businesses</p>
+      <p>How we helped Blumarine to conquer new<br> businesses</p>
 
       <button class="button-without-background">
         Discover
@@ -84,13 +84,10 @@ export default {
 
 <style lang="scss" scoped>
 
-@import "../assets/style/var";
-
 .hero-section-wrapper{
 
   width: 100%;
   position: relative;
-
   overflow: hidden;
 
   margin-bottom: 120px;
@@ -121,8 +118,7 @@ export default {
       position: absolute;
       bottom: -350px;
 
-      z-index: 8;
-
+      z-index: 1;
 
       .line{
         width: 130px;
@@ -130,42 +126,19 @@ export default {
 
     }
 
-    
-
     .unique-selling-position-container{
 
+      width: 70%;
+
       position: absolute;
-      z-index: 20;
+      z-index: 4;
 
       top: 170px;
       left: 0;
 
-      h1{
-
-        height: 160px;
-        width: 814px;
-
-        color: #293E59;
-
-        font-family: Butler;
-        font-size: 72px;
-        font-weight: bold;
-        letter-spacing: -0.3px;
-        line-height: 80px;
-
-      }
-
       p{
 
-        height: 48px;
-        width: 329px;
-
         color: #9B9B9B;
-
-        font-family: "Fira Sans";
-        font-size: 16px;
-        letter-spacing: 0;
-        line-height: 24px;
 
         margin: 20px 0;
 
@@ -175,11 +148,11 @@ export default {
 
     .backgroud-hero-image{
 
-      width: 755px;
-      height: 566px;
+      width: 55%;
+      height: 100%;
 
       position: absolute;
-      z-index: 10;
+      z-index: 2;
       top: 32px;
       right: 127px;
 
@@ -199,7 +172,7 @@ export default {
       background-color: #293E59;
 
       position: absolute;
-      z-index: 11;
+      z-index: 3;
       bottom: 76px;
       right: -36px;
 

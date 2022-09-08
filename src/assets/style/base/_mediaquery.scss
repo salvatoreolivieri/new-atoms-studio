@@ -1,0 +1,33 @@
+// -----------------------------------------------------------------------------
+// This file contains all styles related to the media query.
+// -----------------------------------------------------------------------------
+
+
+// small
+@media screen and (max-width: 640px) {
+
+  .container{
+    max-width: 90%;
+  }
+
+}
+
+// medium
+@media screen and (min-width: 768px) {
+
+}
+
+// large
+@media screen and (min-width: 1024px) {
+
+}
+
+// extra large
+@media screen and (min-width: 1280px) {
+
+}
+
+// extra large++
+@media screen and (min-width: 1536px) {
+
+}

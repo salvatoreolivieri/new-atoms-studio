@@ -68,7 +68,6 @@ export default {
 
       color: #9B9B9B;
 
-      font-family: "Fira Sans";
       font-size: 16px;
       letter-spacing: 0;
       line-height: 24px;

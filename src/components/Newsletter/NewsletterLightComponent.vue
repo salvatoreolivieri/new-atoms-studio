@@ -52,7 +52,6 @@ export default {
 
     color: #9B9B9B;
 
-    font-family: "Fira Sans";
     font-size: 14px;
     letter-spacing: 0;
     line-height: 20px;
@@ -91,8 +90,6 @@ export default {
 
     color: #9B9B9B;
 
-    font-family: "Fira Sans";
-    font-size: 12px;
     letter-spacing: 0;
     line-height: 18px;
   }

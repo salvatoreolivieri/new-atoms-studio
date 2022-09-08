@@ -1,0 +1,31 @@
+// -----------------------------------------------------------------------------
+// This file contains all application-wide Sass mixins.
+// -----------------------------------------------------------------------------
+
+//All flexbox property:
+
+@mixin flex-default{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@mixin flex-between{
+  display: flex;
+  justify-content: space-between;
+}
+
+@mixin flex-end{
+  display: flex;
+  align-items: end;
+  justify-content: end;
+}
+
+
+//It performs truncation on any text that overflows its containing element and adds an ellipsis (…) to the end.
+
+@mixin text-shorten {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}

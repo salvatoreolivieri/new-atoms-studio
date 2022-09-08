@@ -9,9 +9,9 @@
 
     <!-- Testo al centro: -->
     <div class="text-container">
-      <p>
+      <h4>
         Zerogrey is a et iusto odio dignissimos ducimus qui blanditiis praesentium corrupti et quas  excepturi sint occaecati cupiditate non provident.
-      </p>
+      </h4>
     </div>
 
     <div class="how-can-we-help-container">
@@ -154,7 +154,6 @@ export default {
     .text-container{
 
       position: relative;
-      z-index: 9999;
 
       height: 120px;
       width: 867px;
@@ -205,7 +204,6 @@ export default {
       .service-we-offer-container{
 
         position: relative;
-        z-index: 9999;
 
         width: 867px;
 
@@ -242,7 +240,6 @@ export default {
             width: 421px;
             opacity: 0.8;
             color: #293E59;
-            font-family: "Fira Sans";
             font-size: 16px;
             letter-spacing: 0;
             line-height: 24px;
@@ -256,7 +253,6 @@ export default {
 
     .why-choose-us-container{
       position: relative;
-      z-index: 999;
 
       background-color: rgba(0,0,0,0.32);
       background: linear-gradient(90deg, rgba(0,0,0,0) 0%, rgba(0,1,27,0.64) 99.99%);
@@ -291,7 +287,6 @@ export default {
           
           margin: 15px 0;
           color: #FFFFFF;
-          font-family: "Fira Sans";
           font-size: 16px;
           letter-spacing: 0;
           line-height: 24px;

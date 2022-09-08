@@ -17,20 +17,4 @@ function backToTop() {
 
 <style lang="scss" scoped>
 
-@import '../assets/style/var';
-
-.arrow-container{
-  width: 35px;
-  height: 35px;
-  padding: 5px;
-  border-radius: 50%;
-  cursor: pointer;
-
-  background-color: $button-color;
-
-  color: white;
-
-
-}
-
 </style>
