@@ -102,7 +102,7 @@
 
         <div>
           <a href="#">Privacy Policy</a>
-          <a href="#">Cookie Policy</a>
+          <a @click="toTop" href="#">Cookie Policy</a>
         </div>
 
       </div>
@@ -160,7 +160,8 @@
 
 <script>
 export default {
-  name:"FooterComponent"
+  name:"FooterComponent",
+
 }
 </script>
 

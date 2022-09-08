@@ -14,7 +14,11 @@
     <CtaComponent />
 
     <FooterComponent />
-    
+
+    <div v-if="buttonVisible" class="back-to-top-component">
+      <BackToTopButton />
+    </div>
+
   </div>
 </template>
 
@@ -26,6 +30,7 @@ import BlogSectionComponent from './components/BlogSectionComponent.vue';
 import PlatformComponent from './components/PlatformComponent.vue';
 import CtaComponent from './components/CtaComponent.vue';
 import FooterComponent from './components/FooterComponent.vue';
+import BackToTopButton from './components/BackToTopButton.vue';
 
 export default {
   name: 'App',
@@ -36,8 +41,32 @@ export default {
     BlogSectionComponent,
     PlatformComponent,
     FooterComponent,
-    CtaComponent
-}
+    CtaComponent,
+    BackToTopButton
+  },
+
+  data(){
+    return{
+      buttonVisible: false
+    }
+  },
+
+  created () {
+    window.addEventListener('scroll', this.updateButtonVisibility);
+  },
+
+  methods:{
+    updateButtonVisibility(){
+      //console.log(document.documentElement.scrollTop);
+
+      if (document.body.scrollTop > 340 || document.documentElement.scrollTop > 340) {
+        this.buttonVisible = true
+      } else{
+        this.buttonVisible = false
+      }
+    }
+  }
+
 }
 </script>
 
@@ -51,5 +80,19 @@ export default {
   src: local("Fira Sans"),
    url(./assets/font/Fira_Sans/FiraSans-Regular.ttf) format("truetype");
 }
+
+#app{
+  position: relative;
+
+  .back-to-top-component{
+    position: fixed;
+    margin-top: 50px;
+    z-index: 999999;
+    bottom: 30px;
+    right: 95px;
+  }
+
+}
+
 
 </style>
