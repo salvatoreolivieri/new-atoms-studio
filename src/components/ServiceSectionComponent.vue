@@ -5,7 +5,7 @@
   <!-- Cerchio nello sfondo: -->
   <div class="backgroud-circle"></div>
 
-  <div class="service-section-container container">
+  <div class="service-section-container">
 
     <!-- Testo al centro: -->
     <div class="text-container">
@@ -14,7 +14,7 @@
       </h4>
     </div>
 
-    <div class="how-can-we-help-container">
+    <div class="how-can-we-help-container container">
 
       <!-- Testo sulla sinistra: -->
       <div class="call-to-action-container">
@@ -94,7 +94,7 @@
     </div>
 
     <!-- Contenitore con CTA -->
-    <div class="why-choose-us-container">
+    <div class="why-choose-us-container container">
 
       <div class="why-choose-us-text-container">
 
@@ -125,14 +125,12 @@ export default {
 
 <style lang="scss" scoped>
 
-
 .service-section-wrapper{
 
   width: 100%;
   position: relative;
 
   overflow: hidden;
-
   margin-bottom: 140px;
 
   .backgroud-circle{
@@ -153,49 +151,31 @@ export default {
 
     .text-container{
 
-      position: relative;
-
-      height: 120px;
-      width: 867px;
-
       margin: 0 auto;
+      position: relative;
+      width: 50%;
 
-      color: #484A54;
-
-      font-family: Butler;
-      font-size: 32px;
-      letter-spacing: -0.3px;
-      line-height: 40px;
-      text-align: center;
     }
 
     .how-can-we-help-container{
 
       display: flex;
+      flex-wrap: nowrap;
       justify-content: space-between;
-
-      height: 484px;
-      width: 1311px;
 
       margin-top: 220px;
       margin-bottom: 120px;
 
+      
       .call-to-action-container{
         height: 168px;
-        width: 308px;
+        width: 25%;
 
+        margin-bottom: 40px;
 
         h2{
-
-          color: #293E59;
-
-          font-family: Butler;
-          font-size: 48px;
-          font-weight: bold;
-          letter-spacing: -0.3px;
-          line-height: 56px;
-
           margin-bottom: 20px;
+          z-index: 10;
         }
         
 
@@ -219,12 +199,10 @@ export default {
           width: 100%;
 
           display: flex;
+          flex-direction: row;
           justify-content: space-between;
 
-          
-
           h3{
-            height: 80px;
             width: 200px;
             color: #293E59;
             font-family: Butler;
@@ -233,10 +211,10 @@ export default {
             letter-spacing: -0.3px;
             line-height: 40px;
             text-align: right;
+            margin-bottom: 70px;
           }
 
           p{
-            height: 72px;
             width: 421px;
             opacity: 0.8;
             color: #293E59;
@@ -257,6 +235,7 @@ export default {
       background-color: rgba(0,0,0,0.32);
       background: linear-gradient(90deg, rgba(0,0,0,0) 0%, rgba(0,1,27,0.64) 99.99%);
       background-image: url('../assets/img/Rectangle-1.png');
+      background-position: center;
 
       height: 600px;
       width: 1311px;
@@ -268,7 +247,7 @@ export default {
       align-items: center;
 
       .why-choose-us-text-container{
-        height: 248px;
+
         width: 421px;
 
         text-align: right;
@@ -276,11 +255,6 @@ export default {
 
         h2{
           color: #FFFFFF;
-          font-family: Butler;
-          font-size: 48px;
-          font-weight: bold;
-          letter-spacing: -0.3px;
-          line-height: 56px;
         }
 
         p{
@@ -303,5 +277,6 @@ export default {
 
 }
 
+@import '../assets/style/base/mediaquery';
 
 </style>

@@ -3,7 +3,7 @@
 
     <h3>From our studio</h3>
 
-    <p>Get a weekly email with inspirational contents from <br> Zerogrey.</p>
+    <p>Get a weekly email with inspirational contents from Zerogrey.</p>
   
     <form action="">
       
@@ -27,34 +27,15 @@ export default {
 
 .newsletter{
 
-  h3{
-
-    height: 40px;
-    width: 225px;
-
-    color: #293E59;
-
-    font-family: Butler;
-    font-size: 32px;
-    font-weight: bold;
-    letter-spacing: -0.3px;
-    line-height: 40px;
-
-  }
+  margin-top: 30px;
+  width: 90%;
 
   p{
-
-    height: 40px;
-    width: 390px;
 
     margin-top: 10px;
     margin-bottom: 30px;
 
     color: #9B9B9B;
-
-    font-size: 14px;
-    letter-spacing: 0;
-    line-height: 20px;
 
   }
 
@@ -82,16 +63,10 @@ export default {
   }
 
   span{
-    display: inline-block;
+
     margin-left: 5px;
 
-    height: 18px;
-    width: 194px;
-
     color: #9B9B9B;
-
-    letter-spacing: 0;
-    line-height: 18px;
   }
 
 }

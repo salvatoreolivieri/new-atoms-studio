@@ -10,24 +10,157 @@
     max-width: 90%;
   }
 
+  .footer-top{
+
+    flex-wrap: wrap!important;
+
+    .footer-top-left{
+      width: 100%!important;
+      margin-bottom: 30px;
+    }
+  
+    .footer-top-center,
+    .footer-top-right{
+      width: 50%!important;
+    }
+  }
+
+
 }
+
+@media screen and (max-width: 720px) {
+
+  .why-choose-us-container{
+
+    padding: 0!important;
+
+    .why-choose-us-text-container{
+      width: 90%!important;
+      margin: 0 auto;
+    }
+
+  }
+
+  .hero-section-newsletter{
+    display: none!important;
+  }
+
+
+}
+
 
 // medium
 @media screen and (min-width: 768px) {
 
+  .footer-bottom{
+
+  }
+
 }
+
+@media screen and (max-width: 824px) {
+
+  .hero-section-wrapper{
+    margin-bottom: 0px!important;
+  }
+
+  
+  .how-can-we-help-container{
+    flex-wrap: wrap!important;
+    margin-top: 120px!important;
+
+
+    .call-to-action-container{
+      height: 100%!important;
+      width: 100%!important;
+      margin-bottom: 30px!important;
+    }
+
+  }
+}
+
 
 // large
 @media screen and (min-width: 1024px) {
 
 }
 
+@media screen and (max-width: 1040px) {
+
+  .text-container{
+    width: 90%!important;
+  }
+
+  .platform-container{
+    flex-wrap: wrap;
+
+    .background-container{
+      width: 100%!important;
+      height: 200px;
+    }
+  }
+
+}
+
+
+@media screen and (max-width: 1215px) {
+
+  .cta-container{
+    max-width: 100%!important;
+    margin: 0 auto;
+    height: 550px!important;
+    align-items: start!important;
+  }
+
+}
+
+
+
 // extra large
 @media screen and (min-width: 1280px) {
 
 }
 
+@media screen and (max-width: 1310px) {
+
+  .decoration{
+    display: none;
+  }
+
+  .service-we-offer-container{
+    width: 450px!important;
+
+    .service{
+      flex-direction: column!important;
+      margin-bottom: 20px;
+      width: 90%!important;
+  
+      h3{
+        width: 100%!important;
+        height: 0%!important;
+        margin-bottom: 5px!important;
+      
+        text-align: left!important;
+      }
+
+      p{
+        width: 100%!important;
+      }
+
+    }
+
+  }
+
+
+}
+
+
 // extra large++
 @media screen and (min-width: 1536px) {
+
+  .container,
+  .cta-container{
+    width: 70%;
+  }
 
 }

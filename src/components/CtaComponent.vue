@@ -1,6 +1,6 @@
 <template>
 
-  <div class="cta-container container">
+  <div class="cta-container">
 
     <div class="newsletter-wrapper">
 
@@ -30,28 +30,30 @@ export default {
 <style lang="scss" scoped>
 
 .cta-container{
+  max-width: 90%;
+  margin: 0 auto;
+
   margin-top: 140px;
   height: 350px;
 
-
   display: flex;
   align-items: center;
-  justify-content: space-between;
 
 
   background-image: url('../assets/img/Group 2.jpg');
-  background-size: contain ;
+  background-size: cover;
+  background-position: center;
   background-repeat: no-repeat ;
 
   .newsletter-wrapper{
 
     position: relative;
-    margin-left: 111px;
+    margin-left: 30px;
 
     .arrow{
       position: absolute;
-      top: 123px;
-      right: 0;
+      top: 160px;
+      right: 50px;
     }
 
   }

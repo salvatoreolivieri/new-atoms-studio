@@ -42,6 +42,8 @@ export default {
 
 <style lang="scss" scoped>
 
+// @import '';
+
 .card-article{
   height: 600px;
   width: 421px;
@@ -55,7 +57,8 @@ export default {
 
 
   background: white;
-  padding: 20px;
+  padding: 20px 20px 20px 0;
+  margin-right: 20px;
 
   img{
 
@@ -145,6 +148,10 @@ export default {
 
   }
 
+}
+
+.card-article:last-child{
+  margin-right: 0px;
 }
 
 </style>

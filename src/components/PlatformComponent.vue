@@ -27,6 +27,9 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+
+// @import '../assets/style/base/mediaquery';
+
 .platform-container{
   margin-top: 140px;
 
@@ -34,10 +37,13 @@ export default {
   justify-content: space-between;
 
   .background-container{
-    height: 300px;
-    width: 978px;
+
+    width: 80%;
+    margin-right: 20px;
     background-image: url('../assets/img/Rectangle.jpg');
-    background-color: rgba(0,0,0,0.48);
+
+    background-position: center;
+    background-repeat: no-repeat;
 
   }
 
@@ -49,28 +55,9 @@ export default {
     margin-top: 42px;
 
 
-    h2{
-      height: 56px;
-      width: 296px;
-
-      color: #293E59;
-
-      font-family: Butler;
-      font-size: 48px;
-      font-weight: bold;
-      letter-spacing: -0.3px;
-      line-height: 56px;
-    }
-
     p{
-      height: 72px;
-      width: 310px;
 
       color: #9B9B9B;
-
-      font-size: 16px;
-      letter-spacing: 0;
-      line-height: 24px;
 
       margin: 15px 0;
     }

@@ -51,7 +51,7 @@
 
 
     <!-- Contenitore Call To Action Newsletter:-->
-    <div class="newsletter-cta">
+    <div class="newsletter-cta hero-section-newsletter">
 
       <div class="newsletter-wrapper">
 

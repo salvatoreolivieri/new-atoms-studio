@@ -1,13 +1,21 @@
 <template>
   <div class="articles-wrapper">
 
-    <!-- Componente della card dell'articolo che ciclo: -->
-    <SingleArticleComponent
-      class="card-article"
+    <div class="outer-wrapper">
+        <div class="inner-wrapper">
 
-      v-for="(object, index) in this.articles"
-      :key="index"
-      :item="object" />
+            <!-- Componente della card dell'articolo che ciclo: -->
+            <SingleArticleComponent
+              class="card-article"
+        
+              v-for="(object, index) in this.articles"
+              :key="index"
+              :item="object" />
+
+        </div>
+        <div class="preudo-track"></div>
+    </div>
+
 
   </div>
 </template>
@@ -62,12 +70,43 @@ export default {
 
 <style lang="scss" scoped>
 
-.articles-wrapper{
-  display: flex;
-  overflow: scroll;
+  .outer-wrapper{
+    display: flex;
+    overflow-x: scroll;
 
-  margin-left: -45px;
-  margin-right: 15px;
+    margin-right: 15px;
+  }
+
+  .pseduo-track {
+  background-color: #f1db9d;
+  height: 2px;
+  width: 100%;
+  position: relative;
+  top: -3px;
+  z-index: -10;
 }
+
+
+  .outer-wrapper::-webkit-scrollbar {
+      height: 4px;
+      width: -400px;
+
+  }
+
+  .outer-wrapper::-webkit-scrollbar-thumb {
+      height: 5px;
+      background-color: grey;
+      border-radius: 10px;
+  }
+
+  .outer-wrapper::-webkit-scrollbar-thumb:hover {
+      background-color: black;
+  }
+
+  .inner-wrapper {
+      display: flex;
+      padding-bottom: 50px;
+
+  }
 
 </style>

@@ -10,6 +10,8 @@ header{
 
   width: 100%;
   background-color: white;
+
+  // border-bottom: 1px solid #dee2e6;
   
   section{
 
@@ -20,7 +22,7 @@ header{
 
 
     .logo-container{
-      width: 200px;
+      width: 150px;
   
       img{
         width: 100%;
@@ -50,6 +52,18 @@ header{
   
         }
   
+      }
+
+      .hamburger-menu-container{
+        width: 35px;
+        display: flex;
+        align-items: center;
+        margin-left: 10px;
+        cursor: pointer;
+
+        img{
+          width: 100%;
+        }
       }
   
     }
