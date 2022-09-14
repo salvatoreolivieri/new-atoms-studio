@@ -125,12 +125,15 @@ export default {
 
 <style lang="scss" scoped>
 
+@import '../assets/style/abstracts/mixins';
+
 .service-section-wrapper{
 
   width: 100%;
   position: relative;
 
   overflow: hidden;
+  margin-top: 50px;
   margin-bottom: 140px;
 
   .backgroud-circle{
@@ -198,29 +201,19 @@ export default {
         .service{
           width: 100%;
 
-          display: flex;
+          @include flex-between;
           flex-direction: row;
-          justify-content: space-between;
+
 
           h3{
-            width: 200px;
-            color: #293E59;
-            font-family: Butler;
-            font-size: 32px;
-            font-weight: bold;
-            letter-spacing: -0.3px;
-            line-height: 40px;
-            text-align: right;
+
             margin-bottom: 70px;
           }
 
           p{
             width: 421px;
             opacity: 0.8;
-            color: #293E59;
-            font-size: 16px;
-            letter-spacing: 0;
-            line-height: 24px;
+
           }
 
         }
@@ -249,7 +242,6 @@ export default {
       .why-choose-us-text-container{
 
         width: 421px;
-
         text-align: right;
 
 
@@ -261,14 +253,9 @@ export default {
           
           margin: 15px 0;
           color: #FFFFFF;
-          font-size: 16px;
-          letter-spacing: 0;
-          line-height: 24px;
 
         }
 
-
-  
       }
 
     }

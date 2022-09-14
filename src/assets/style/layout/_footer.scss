@@ -3,10 +3,11 @@
 // -----------------------------------------------------------------------------
 
 footer{
+  
+  background-color: #F2F4F6;
 
-
-  margin-top: 126px;
-  padding: 81px 0;
+  margin-top: 125px;
+  padding: 80px 0;
 
   .footer-top{
 
@@ -38,11 +39,7 @@ footer{
         margin-bottom: 20px;
 
         a{
-          height: 24px;
-          width: 45px;
           font-size: 16px;
-          letter-spacing: 0;
-          line-height: 24px;
         }
       }
 
@@ -52,76 +49,35 @@ footer{
 
   .footer-bottom{
 
-    @include flex-between;
 
-    height: 120px;
+    .footer-bottom-top{
 
-    .footer-bottom-left{
+      @include flex-between;
+      flex-wrap: wrap;
 
       .logo-container{
-        height: 40px;
-        width: 167.23px;
 
-        margin: 30px 0;
+        width: 168px;
+
+        margin: 30px 0 0 0;
 
         img{
           width: 100%;
         }
       }
 
-      a{
-        margin-right: 30px;
-
-        letter-spacing: 0;
-        line-height: 20px;
-      }
-
-
-    }
-
-    .footer-bottom-center{
-
-      display: flex;
-      flex-direction: column;
-      justify-content: flex-end;
-
-      height: 100%;
-
-      p{
-        height: 18px;
-
-        color: #293E59;
-
-        font-size: 12px;
-        letter-spacing: 0;
-        line-height: 18px;
-        text-align: center;
-      }
-      
-    }
-
-    .footer-bottom-right{
-
-      height: 100%;
-
       .social-icon-container{
 
         @include flex-default;
 
-        height: 40px;
         margin: 30px 0;
-
 
         .social-icon{
           margin-left: 20px;
 
           img{
-
+            color:none;
             cursor: pointer;
-
-            &:hover{
-              color: $button-color;
-            }
 
           }
 
@@ -129,41 +85,52 @@ footer{
 
       }
 
+    }
+
+    .footer-bottom-bottom{
+
+      @include flex-between;
+      align-items: center;
+      flex-wrap: wrap;
+
+      a{
+        margin-right: 30px;
+      }
+
+      p{
+        font-size: 12px;
+        text-align: center;
+        margin: 30px 0
+      }
+      
       .language-website-container{
-
-        @include flex-end;
-
+  
+        @include flex-default;
+  
         .language-website{
-
+  
           span{
-
+  
             margin-left: 20px;
-
-            height: 20px;
-            width: 20px;
-
-            color: #293E59;
-
-            letter-spacing: 0;
-            line-height: 20px;
-
+  
             text-transform: uppercase;
             cursor: pointer;
-
-            &.active{
+  
+            &.active,
+            &:hover{
               color: $button-color;
-
+  
               font-weight: bold;
               text-decoration: underline;
               
             }
-
+  
           }
-
+  
         }
         
       }
-      
+
     }
 
   }

@@ -6,24 +6,29 @@
   <div class="backgroud-circle"></div>
 
 
-  <div class="hero-section-container container">
+  <div class="hero-section-container">
 
-    <!-- Unique Value Proposition: -->
-    <div class="unique-selling-position-container">
-      <h1>Performance without compromises</h1>
 
-      <p>How we helped Blumarine to conquer new<br> businesses</p>
+    <div class="unique-selling-position-container container">
 
-      <button class="button-without-background">
-        Discover
-      </button>
+      <!-- Unique Value Proposition: -->
+      <div class="hero-section-text-container">
+        <h1>Performance without compromises</h1>
+  
+        <p>How we helped Blumarine to conquer new<br> businesses</p>
+  
+        <button class="button-without-background">
+          Discover
+        </button>
+      </div>
+
+      <!-- Immagine della ragazza: -->
+      <div class="backgroud-hero-image">
+        <img src="../assets/img/Blauer Detroit D5_612.jpg" alt="">
+      </div>
     </div>
 
 
-    <!-- Immagine della ragazza: -->
-    <div class="backgroud-hero-image">
-      <img src="../assets/img/Blauer Detroit D5_612.jpg" alt="">
-    </div>
 
 
     <!-- Decorazione: -->
@@ -96,29 +101,25 @@ export default {
 
       background-color: rgba(128, 199, 229, 0.5);
 
-      width: 880px;
-      height: 880px;
+      width: 700px;
+      height: 700px;
       border-radius: 50%;
 
       position: absolute;
       top: 0;
       right: -150px;
+      z-index: -1;
 
   }
 
   .hero-section-container{
 
-    position: relative;
-
-    height: 880px;
-
+    height: 735px;
 
     .decoration{
 
       position: absolute;
       bottom: -350px;
-
-      z-index: 1;
 
       .line{
         width: 130px;
@@ -127,47 +128,41 @@ export default {
     }
 
     .unique-selling-position-container{
+      display: flex;
+      flex-wrap: wrap;
 
-      width: 70%;
+      margin-bottom: 40px;
 
-      position: absolute;
-      z-index: 4;
+      .hero-section-text-container{
 
-      top: 170px;
-      left: 0;
+        width: 50%;
+        margin-top: 150px;
 
-      p{
+        p{
+          color: #9B9B9B;
+          margin: 20px 0;
+        }
+      }
 
-        color: #9B9B9B;
+      .backgroud-hero-image{
 
-        margin: 20px 0;
+        width: 50%;
+        height: 100%;
+
+        margin-top: 30px;
+
+        img{
+          width: 100%;
+        }
 
       }
 
     }
 
-    .backgroud-hero-image{
-
-      width: 55%;
-      height: 100%;
-
-      position: absolute;
-      z-index: 2;
-      top: 32px;
-      right: 127px;
-
-      img{
-        width: 100%;
-      }
-
-    }
 
     .newsletter-cta{
 
-      width: 486px;
-      height: 294px;
-
-      padding: 40px;
+      padding: 50px;
 
       background-color: #293E59;
 

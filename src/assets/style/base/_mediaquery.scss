@@ -25,6 +25,12 @@
     }
   }
 
+  .footer-bottom-top,
+  .footer-bottom-bottom{
+    justify-content: center!important;
+  }
+
+
 
 }
 
@@ -41,22 +47,11 @@
 
   }
 
-  .hero-section-newsletter{
-    display: none!important;
-  }
-
 
 }
 
 
 // medium
-@media screen and (min-width: 768px) {
-
-  .footer-bottom{
-
-  }
-
-}
 
 @media screen and (max-width: 824px) {
 
@@ -81,9 +76,6 @@
 
 
 // large
-@media screen and (min-width: 1024px) {
-
-}
 
 @media screen and (max-width: 1040px) {
 
@@ -98,6 +90,24 @@
       width: 100%!important;
       height: 200px;
     }
+  }
+
+  .hero-section-newsletter,
+  .decoration{
+    display: none!important;
+  }
+
+  h1{
+    font-size: 3.5em;
+  }
+
+  .hero-section-text-container{
+    margin-top: 20px!important;
+  }
+
+  .hero-section-text-container,
+  .backgroud-hero-image{
+    width: 100%!important;
   }
 
 }

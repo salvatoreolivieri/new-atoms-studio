@@ -1,7 +1,7 @@
 <template>
-  <footer class="container">
+  <footer>
 
-    <div class="footer-top">
+    <div class="footer-top container">
 
       <div class="footer-top-left">
 
@@ -92,29 +92,16 @@
     </div>
 
 
-    <div class="footer-bottom">
+    <div class="footer-bottom container">
 
-      <div class="footer-bottom-left">
-        
+      <div class="footer-bottom-top">
+
+        <!-- Parte sinistra -->
         <div class="logo-container">
           <img src="../assets/img/zerogrey-logo_dark200.png" alt="">
         </div>
 
-        <div>
-          <a href="#">Privacy Policy</a>
-          <a @click="toTop" href="#">Cookie Policy</a>
-        </div>
-
-      </div>
-
-      <div class="footer-bottom-center">
-        <p>
-          ZEROGREY© 2019 | P.I. IT08003340018 | All rights reserved. Various trademarks held by their respective owners
-        </p>
-      </div>
-
-      <div class="footer-bottom-right">
-        
+        <!-- Parte destra -->
         <div class="social-icon-container">
 
           <div class="social-icon">
@@ -135,24 +122,41 @@
 
         </div>
 
-        <div class="language-website-container">
+      </div>
 
+      <div class="footer-bottom-bottom">
+
+        <!-- Parte sinistra -->
+        <div>
+          <a href="#">Privacy Policy</a>
+          <a @click="toTop" href="#">Cookie Policy</a>
+        </div>
+
+        <!-- Parte centrale -->
+        <div>
+          <p>
+            ZEROGREY© 2019 | P.I. IT08003340018 | All rights reserved. Various trademarks held by their respective owners
+          </p>
+        </div>
+
+        <!-- Parte destra -->
+        <div class="language-website-container">
+  
           <div class="language-website">
             <span class="active">eng</span>
           </div>
-
+  
           <div class="language-website">
             <span>ita</span>
           </div>
-
+  
           <div class="language-website">
             <span>esp</span>
           </div>
-
+  
         </div>
-
       </div>
-      
+
     </div>
 
   </footer>
@@ -164,7 +168,3 @@ export default {
 
 }
 </script>
-
-<style lang="scss" scoped>
-
-</style>

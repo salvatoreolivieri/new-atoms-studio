@@ -42,8 +42,6 @@ export default {
 
 <style lang="scss" scoped>
 
-// @import '';
-
 .card-article{
   height: 600px;
   width: 421px;
